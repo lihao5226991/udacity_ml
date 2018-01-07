@@ -3,6 +3,7 @@ def NBAccuracy(features_train, labels_train, features_test, labels_test):
     ### import the sklearn module for GaussianNB
     from sklearn.naive_bayes import GaussianNB
 
+
     ### create classifier
    
     clf = GaussianNB()
